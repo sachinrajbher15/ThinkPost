@@ -1,0 +1,48 @@
+.all-authors-page {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+  }
+  
+  .user-posts {
+    background-color: rgb(208, 191, 224);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .user-posts h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+  }
+  
+  .user-posts p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .all-authors-page {
+      margin: 15px; /* Reduce margin for smaller screens */
+      padding: 15px; /* Adjust padding */
+    }
+  
+    .user-posts {
+      padding: 15px; /* Reduce padding for smaller screens */
+      margin: 8px; /* Reduce margin for compact view */
+    }
+  
+    .user-posts h3 {
+      font-size: 1.2rem; /* Adjust font size for headings */
+    }
+  
+    .user-posts p {
+      font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+  }
+  

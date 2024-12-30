@@ -1,0 +1,32 @@
+.all-users-page{
+    background-color: rgb(208, 191, 224);
+    margin: 30px;
+    padding: 10px;
+}
+.users{
+    margin-left: 50px;
+}
+
+
+@media (max-width: 768px) { /* Tablet and Mobile */
+    .all-users-page {
+      margin: 20px;
+      padding: 8px;
+    }
+  
+    .users {
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) { /* Mobile */
+    .all-users-page {
+      margin: 10px;
+      padding: 5px;
+    }
+  
+    .users {
+      margin-left: 10px;
+    }
+  }
+  

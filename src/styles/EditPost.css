@@ -1,0 +1,42 @@
+.edit-post-container {
+    background-color: rgb(208, 191, 224);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 30px;
+    padding: 20px;
+  }
+  
+  .edit-post-container input {
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .edit-post-container textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  .edit-post-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-post-container button:hover {
+    background-color: #0056b3;
+  }
+  

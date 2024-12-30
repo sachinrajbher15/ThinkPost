@@ -1,0 +1,130 @@
+/* Posts List Container */
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* Post Card Style */
+.post-card {
+  background-color: rgb(208, 191, 224);
+  padding: 15px; /* Reduced padding to decrease space inside */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* Post Title */
+.post-card h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  padding: 0;
+}
+
+/* Post Author */
+.post-card p strong {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+/* Post Content */
+.post-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px; /* Reduced margin to decrease space */
+  padding: 0;
+}
+
+/* Reaction Buttons Container */
+.reactions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Reaction buttons */
+.reactions button {
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.reactions button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Button Style */
+.view-post-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.view-post-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .post-card {
+    width: 100%;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .post-card h3 {
+    font-size: 1.5rem; /* Reduce font size for titles */
+  }
+
+  .post-card p {
+    font-size: 0.9rem; /* Reduce font size for content */
+  }
+
+  .reactions button {
+    font-size: 0.9rem; /* Adjust button font size */
+    padding: 4px 8px; /* Adjust button padding */
+  }
+
+  .view-post-btn {
+    font-size: 0.9rem; /* Adjust button font size */
+    padding: 4px 8px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .post-card {
+    padding: 8px; /* Further reduce padding for very small screens */
+  }
+
+  .post-card h3 {
+    font-size: 1.3rem; /* Further reduce font size for titles */
+  }
+
+  .post-card p {
+    font-size: 0.8rem; /* Further reduce font size for content */
+  }
+
+  .reactions button {
+    font-size: 0.8rem; /* Further adjust button font size */
+    padding: 3px 6px; /* Further adjust button padding */
+  }
+
+  .view-post-btn {
+    font-size: 0.8rem; /* Further adjust button font size */
+    padding: 3px 6px; /* Further adjust button padding */
+  }
+}
